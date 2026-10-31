@@ -1,0 +1,9 @@
+# Profiling artifacts (keep .bench/baseline.txt only)
+.bench/*.prof
+.bench/baseline_prof.txt
+.bench/baseline_pre_opt.txt
+
+# Serena memory and local cache
+.serena/
+agent-*/
+docs/
