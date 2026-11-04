@@ -2,7 +2,7 @@
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/shengyanli1982/go-healthcheck)](https://goreportcard.com/report/github.com/shengyanli1982/go-healthcheck)
 [![Go Reference](https://pkg.go.dev/badge/github.com/shengyanli1982/go-healthcheck.svg)](https://pkg.go.dev/github.com/shengyanli1982/go-healthcheck)
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/shengyanli1982/go-healthcheck)
+[[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/shengyanli1982/go-healthcheck)](https://deepwiki.com/shengyanli1982/go-healthcheck)
 
 Embeddable health-check library for Go gateways, proxies, and load balancers. It pairs active probing (HTTP / TCP / gRPC) with passive failure detection (nginx-style `max_fails` / `fail_timeout` time windows) and collapses both into structured probe facts and aggregated health signals. One design rule runs through the whole API: **the library outputs facts, not decisions** — routing, load balancing, and traffic policy belong to the host.
 
